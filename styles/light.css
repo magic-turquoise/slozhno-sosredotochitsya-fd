@@ -11,5 +11,6 @@
   */
   --bg-image: url("../images/cover-image-light.png");
   --bg-color:rgba(255, 241, 247, 1);
+  --corner-border: 1px solid rgba(53, 52, 48, 1);
 
 }

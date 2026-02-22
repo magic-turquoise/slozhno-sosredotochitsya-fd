@@ -6,4 +6,5 @@
   --bg-image: url("../images/cover-image-dark.png");
   --bg-color: rgba(0, 0, 40, 1);
   --header-min-height: 668px;
+  --corner-border: 1px solid rgba(255, 0, 112, 1);  /*границы уголков*/
 }
