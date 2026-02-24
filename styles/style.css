@@ -37,13 +37,13 @@
 
 .header__theme-menu {
   justify-self: end;
-  align-self: end;  
+  align-self: end;
 }
 
 .header__theme-menu-list {
   display: grid;
-  grid-template-rows: repeat(3, 1fr); 
-  gap: 10px;   
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
 }
 
 .header__theme-menu-button {
@@ -152,7 +152,7 @@
   font-size: 18px;
   line-height: 130%;
   font-weight: 700;
-  color: var(--decorate-color); 
+  color: var(--decorate-color);
 }
 
 .content__section-title-article {
@@ -227,11 +227,11 @@ img {
 .content__section-link {
   text-shadow: 2px 2px 0 var(--decorate-color);
   text-decoration: none;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .content__section-link:hover {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 .content__section-link:focus-visible {
