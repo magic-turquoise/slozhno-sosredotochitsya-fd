@@ -3,11 +3,12 @@
   и их переопределение под различные устройства
 */
 :root {
-  --bg-image: url("../images/cover-image-dark.png");
-  --bg-color: rgba(0, 0, 40, 1);
-  --header-min-height: 668px;
-  --corner-border: 1px solid rgba(255, 0, 112, 1);  /*границы уголков*/
-  --decorate-color: rgba(255, 0, 112, 1);
+  --page-bg-image: url("../images/cover-image-dark.png"); /*фоновая картинка для страницы*/
+  --page-bg-color: rgba(0, 0, 40, 1);                   /*цвет фона*/
+  --header-min-height: 668px;                             /*размер header по макету*/
+  --decorate-color: rgba(255, 0, 112, 1);          /**/
   --section-text-color: rgba(241, 178, 206, 1);
 
+  --corner-border: 1px solid rgba(255, 0, 112, 1);  /*границы уголков*/
+  
 }
