@@ -19,7 +19,7 @@ body {
 .header {
   width: var(--page-width);
   height: 100vh;
-  height: var(--header-min-height);
+  min-height: var(--header-min-height);
   background-image: var(--bg-pattern-additional);
   background-repeat: no-repeat;
   background-position: center;
@@ -133,7 +133,7 @@ h2 {
 
 .title {
   font-size: 18px;
-  line-height: 130%; 
+  line-height: 130%;
   font-weight: 700; 
   width: 355px;
 }
@@ -203,7 +203,7 @@ img {
 .footer {
   width: var(--page-width);
   height: 100vh;
-  height: 668px;
+  min-height: 668px;
   padding: 10px;
   position: relative;
   display:grid;
