@@ -1,6 +1,7 @@
 
 body {
   background-image: var(--bg-pattern);
+  background-color: var(--black);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -224,7 +225,7 @@ img {
 }
 
 
-@media (width: 768px) {
+/*@media (width: 768px) {
   
   body {
     margin: 0 auto;
@@ -245,5 +246,5 @@ img {
   .header {
     --page-width: 1024px;
 }
-}
+}*/
   
