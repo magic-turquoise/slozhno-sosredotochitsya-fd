@@ -204,11 +204,11 @@ img {
   width: var(--page-width);
   height: 100vh;
   min-height: 668px;
-  padding: 10px;
+  padding: 0 10px;
   position: relative;
-  display:grid;
+  /*display: grid;
   justify-items: center;
-  align-items: center;
+  align-items: center;*/
 }
 
 .footer__text {
@@ -218,6 +218,9 @@ img {
   font-weight: 700;
   text-shadow: 2px 2px 0 var(--decorate-color);
   width: 348px;
+  margin-top: 286px;
+  margin-bottom: 285px;
+  margin-left: 2px;
 }
 
 
@@ -235,7 +238,7 @@ img {
 
 @media (width: 1024px) {
   body {
-    margin: 0 auto; 
+    margin: 0 auto;
     --gap-body: 60px;
   }
 
