@@ -19,7 +19,7 @@ body {
 .header {
   width: var(--page-width);
   height: 100vh;
-  min-height: var(--header-min-height);
+  height: var(--header-min-height);
   background-image: var(--bg-pattern-additional);
   background-repeat: no-repeat;
   background-position: center;
@@ -170,7 +170,7 @@ h4 {
 
 .content__section-article-advice {
   display: grid;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
   gap: 20px;
 }
 
@@ -203,7 +203,7 @@ img {
 .footer {
   width: var(--page-width);
   height: 100vh;
-  min-height: 668px;
+  height: 668px;
   padding: 10px;
   position: relative;
   display:grid;
