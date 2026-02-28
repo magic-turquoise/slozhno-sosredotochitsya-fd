@@ -1,5 +1,6 @@
 
-body {
+.page {
+  width: var(--page-width);
   background-image: var(--bg-pattern);
   background-color: var(--black);
   background-repeat: no-repeat;
@@ -7,10 +8,10 @@ body {
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
-  font-family: var(--main-font-family);
-  font-size: var(--main-font-size);
+  font-family: 'IBM Plex mono';
+  /*font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
-  line-height: var(--main-line-height);
+  line-height: var(--main-line-height);*/
   overflow-x: hidden;
   display: grid;
   grid-template-rows: repeat(3, auto);
@@ -18,7 +19,8 @@ body {
 }
 
 .header {
-  width: var(--page-width);
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
   height: 100vh;
   min-height: var(--header-min-height);
   background-image: var(--bg-pattern-additional);
@@ -26,7 +28,7 @@ body {
   background-position: center;
   background-size: cover;
   position: relative;
-  padding: 0 10px;
+  padding: 10px;  
 }
 
 /* REC*/
@@ -38,15 +40,16 @@ body {
   font-weight: 400;
   color: var(--decorate-color);
   top: 10px;
-  left: 304px;
+  right: 19px;
+  /*left: 304px;*/
 }
 
 /*point*/
 
 .header__decoration-item::after {
-  display: inline-block;
-  margin-left: 10px;
   content: "";
+  display: inline-block;
+  margin-left: 10px;  
   width: 9px;
   height: 9px;
   border-radius: 50%;
@@ -83,8 +86,160 @@ body {
 }
 
 .header__theme-menu {
+  justify-self: end;
+  align-self: center;
+}
+
+.header__theme-menu-list {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* у меня не было этого пункта
+.header__theme-menu-item {
+  display: grid;
+  justify-self: flex-end;
+}
+/********************************/
+
+.header__theme-menu-button {
+  width: 70px;
+  height:26px;
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--decorate-color);
+  border: none;
+  background: transparent;
+  text-transform: lowercase;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--decorate-color);
+  pointer-events: none;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--decorate-color);
+} 
+
+.header__theme-menu-button:focus {
+   outline: none;
+} 
+
+.header__theme-menu-button:focus-visible {
+  border-bottom: 1px solid var(--decorate-color);
+} 
+
+.header__title {
+  justify-self: start;
+  align-self: center;
+  color: var(--accent-color);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  font-weight: 700;
+  text-shadow: 4px 4px 0 var(--decorate-color);
+}
+
+/*.header__description {
+  justify-self: center;
+  align-self: center;
+  width: 355px;
+}*/
+
+.title {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 700;
+  justify-self: center;
+  align-self: center;
+  width: 355px;
+
+}
+
+.title-accent {
+  color: var(--black);
+  background-color: var(--decorate-color);
+}
+
+.decorate-color {
+  color: var(--decorate-color);
+}
+
+.title-weight {
+  font-weight: 400;
+}
+
+/**********************************************my version header
+.header {
+  height: 100vh;
+  min-height: var(--header-min-height);
+  background-image: var(--bg-pattern-additional);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 10px 0;
+}
+
+/* REC
+
+.header__decoration-item {
+  position: absolute;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--decorate-color);
+  top: 10px;
+  right: 19px;
+  /*left: 304px;
+}
+
+/*point
+
+.header__decoration-item::after {
+  display: inline-block;
+  margin-left: 10px;
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: var(--decorate-color);
+  box-shadow: 0 0 4px 2px var(--decorate-color);
+}
+
+/*corner right
+
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;  
+  border-style: solid;
+  border-width: 1px 1px 0 0;
+  border-color: var(--decorate-color);
+  right: 10px;
+  top: 10px;
+}
+
+/*corner left
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;  
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  border-color: var(--decorate-color);
+  left: 10px;
+  bottom: 10px;
+}
+
+.header__theme-menu {
   margin-top: 75px;
-  margin-left: 285px;
+  margin-left: 290px;
 }
 
 .header__theme-menu-list {
@@ -139,20 +294,21 @@ h2 {
   width: 355px;
 }
 
-.decorate-color {
-  color: var(--decorate-color);
-}
 
-h4 {
+
+/*********************************************end of my header**********************/
+
+/*h4 {
   font-size: 18px;
   line-height: 130%;
   font-weight: 400;
   color: var(--black);
   background-color: var(--decorate-color);
-}
+}*/
 
 .content {
-  width: var(--page-width);
+  width: 100%;
+  /*width: var(--page-width);*/
   display: grid;
   grid-template-rows: repeat(4, auto);
   gap: 50px;
@@ -202,14 +358,15 @@ img {
 }
 
 .footer {
-  width: var(--page-width);
+  /*width: var(--page-width);*/
+  width: 100%;
   height: 100vh;
   min-height: 668px;
   padding: 0 10px;
   position: relative;
-  /*display: grid;
+  display: grid;
   justify-items: center;
-  align-items: center;*/
+  align-items: center;
 }
 
 .footer__text {
@@ -219,9 +376,9 @@ img {
   font-weight: 700;
   text-shadow: 2px 2px 0 var(--decorate-color);
   width: 348px;
-  margin-top: 286px;
+  /*margin-top: 286px;
   margin-bottom: 285px;
-  margin-left: 2px;
+  margin-left: 2px;*/
 }
 
 
