@@ -304,7 +304,7 @@ article {
 .content__section-why,
 .content__section-what,
 .content__section-how {
-  grid-template-columns: 1fr 2fr;  
+  grid-template-columns: 1fr 2fr;
 }
 
 .content__section-article-why-dofamin {
@@ -455,11 +455,11 @@ article {
 
 .content__section-why,
 .content__section-how {
-  grid-template-columns: 1fr 2fr;  
+  grid-template-columns: 1fr 2fr;
 }
 
 .content__section-what {
-  grid-template-columns: repeat(3, 1fr);  
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .content__section-article-why-dofamin {
@@ -545,10 +545,10 @@ article {
 
 .footer {
   padding: 0 20px;
+  min-height: var(--header-footer-ipad-min-height-lanscape);
 }
 
-.footer__text {
-  min-height: var(--header-footer-ipad-min-height-lanscape);
+.footer__text {  
   font-size: var(--ipad-title-font-size);
   }
 }
