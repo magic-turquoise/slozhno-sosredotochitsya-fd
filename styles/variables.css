@@ -5,16 +5,17 @@
 :root {
   --bg-pattern: url(../images/cover-image-dark.png); /*фоновая картинка для страницы*/
   --bg-pattern-additional: url(../images/cover-image.png);
-  --mobile-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);  /* 18px*/
-  --ipad-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
-  --main-font-weight: 400;
-  --main-line-height: 130%;
-  --bg-color: rgba(0, 0, 40, 1);
-  --accent-color:  rgba(219, 0, 255, 1);
-  --decorate-color: rgba(255, 0, 112, 1);
-  --text-color: rgba(241, 178, 206, 1);
+  --mobile-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --ipad-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --bg-color: #000028;
+  --accent-color: #DB00FF;
+  --decorate-color: #FF0070;
+  --text-color: #F1B2CE;
+  --corner-decorate-color: #FF0070;
   --black:rgba(0, 0, 40, 1);
-  --gap-body: 40px;
-  --page-width: 375px;
-  --header-footer-min-height: 668px;
+  --page-mobile-gap: 40px;
+  --page-ipad-gap: 60px;
+  --header-footer-mobile-min-height: 668px;
+  --header-footer-ipad-min-height-portrait: 1024px;
+  --header-footer-ipad-min-height-landscape: 768px;
 }
