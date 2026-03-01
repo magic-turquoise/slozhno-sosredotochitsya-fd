@@ -5,7 +5,7 @@
 :root {
   --bg-pattern: url(../images/cover-image-dark.png); /*фоновая картинка для страницы*/
   --bg-pattern-additional: url(../images/cover-image.png);
-  --mobile-title-font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);  /* 18px*/
+  --mobile-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);  /* 18px*/
   --ipad-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
   --main-font-weight: 400;
   --main-line-height: 130%;

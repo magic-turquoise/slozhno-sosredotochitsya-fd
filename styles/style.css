@@ -290,7 +290,7 @@
 
 
 .header__title {
-  font-size: ipad-title-font-size;
+  font-size: var(--ipad-title-font-size);
 }
 
 .content {
@@ -375,8 +375,7 @@
 }
 
 .footer__text {
-  color: var(--accent-color);
-  font-size: ipad-title-font-size;
+  font-size: var(--ipad-title-font-size);
   }
 }
 
