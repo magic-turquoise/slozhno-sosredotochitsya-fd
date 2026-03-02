@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --page-bg-image: url(../images/cover-image-dark.png); /*фоновая картинка для страницы*/
+  --page-bg-image: url(../images/cover-image-dark.png);
   --header-bg-image: url(../images/cover-image.png);
   --mobile-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --ipad-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -11,6 +11,7 @@
   --accent-color: #DB00FF;
   --decorate-color: #FF0070;
   --section-title-color: #FF0070;
+  --article-title-color:#000028;
   --text-color: #F1B2CE;
   --corner-decorate-color: #FF0070;
   --page-mobile-gap: 40px;

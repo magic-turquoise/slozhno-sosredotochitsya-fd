@@ -88,17 +88,8 @@
 .header__theme-menu-list {
   display:flex;
   flex-direction: column;
-  /*display: grid;
-  grid-template-rows: repeat(3, 1fr);*/
   gap: 10px;
 }
-
-/* у меня не было этого пункта
-.header__theme-menu-item {
-  display: grid;
-  justify-self: flex-end;
-}
-/********************************/
 
 .header__theme-menu-button {
   width: 70px;
@@ -149,14 +140,11 @@
   font-size: 18px;
   line-height: 130%;
   font-weight: 700;
- /*justify-self: ;
-  align-self: center;
-  width: 355px;*/
-
+  display: block;
 }
 
 .title-accent {
-  color: var(--black);
+  color: var(--article-title-color);
   background-color: var(--decorate-color);
 }
 
@@ -174,11 +162,6 @@
   gap: 50px;
   padding:  0 10px;
 }
-
-/*.content__section-why {
-  display: grid;
-  gap: 20px;
-}*/
 
 .content__section-why, 
 .content__section-what,
@@ -198,8 +181,9 @@
   gap: 10px;
 }
 
-article {
+.article {
   display: grid;
+  grid-template-rows: repeat(2, auto);
   gap: 10px;
 }
 
@@ -460,12 +444,20 @@ article {
 
 .content__section-what {
   grid-template-columns: repeat(3, 1fr);
- }
+}
 
 .content__section-article-why-dofamin {
   grid-column: 2;
   grid-row: 2;
-} 
+}
+
+.content__section-article-what-concentration,
+.content__section-article-what-food,
+.content__section-article-what-gadgets  {
+  display: grid;
+  grid-template-rows: min-content auto;
+  gap: 10px;
+}
 
 .content__section-article-what-concentration {
   grid-column: 1;
@@ -548,7 +540,7 @@ article {
   min-height: var(--header-footer-ipad-min-height-lanscape);
 }
 
-.footer__text {  
+.footer__text {
   font-size: var(--ipad-title-font-size);
-  }
+}
 }

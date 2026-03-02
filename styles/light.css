@@ -17,6 +17,7 @@
   --section-title-color: #353430;
   --text-color: #353430;
   --corner-decorate-color: #353430;
+  --article-title-color:#353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,6 +30,7 @@
   --section-title-color: #353430;
   --text-color: #353430;
   --corner-decorate-color: #353430;
+  --article-title-color:#353430;
   }
   
   .header__decoration-item {
