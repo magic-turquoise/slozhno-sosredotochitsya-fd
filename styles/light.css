@@ -10,8 +10,9 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-color: #FFF1F7;
-  --page-bg-image: "";
-  --header-bg-image: url(../images/cover-image-light.png);
+  /*--page-bg-image: "";
+  --header-bg-image: url(../images/cover-image-light.png);*/
+  --page-bg-image: url(../images/cover-image-light.png);
   --accent-color:#FFC2E6;
   --decorate-color: #FF8DCB;
   --section-title-color: #353430;
@@ -22,8 +23,9 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --page-bg-image: "";
-  --header-bg-image: url(../images/cover-image-light.png);
+  /*--page-bg-image: "";
+  --header-bg-image: url(../images/cover-image-light.png);*/
+  --page-bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
   --accent-color:#FFC2E6;
   --decorate-color: #FF8DCB;

@@ -19,7 +19,7 @@
   grid-template-rows: 1fr min-content 1fr;
   height: 100vh;
   min-height: var(--header-footer-mobile-min-height);
-  background-image: var(--header-bg-image);
+  /*background-image: var(--header-bg-image);*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -453,7 +453,7 @@
 
 .content__section-article-what-concentration,
 .content__section-article-what-food,
-.content__section-article-what-gadgets  {
+.content__section-article-what-gadgets {
   display: grid;
   grid-template-rows: min-content auto;
   gap: 10px;
