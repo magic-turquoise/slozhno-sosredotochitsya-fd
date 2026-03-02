@@ -1,6 +1,6 @@
 
 .page {
-  background-image: var(--bg-pattern);
+  background-image: var(--page-bg-image);
   background-color: var(--bg-color);
   background-repeat: no-repeat;
   background-position: center;
@@ -19,7 +19,7 @@
   grid-template-rows: 1fr min-content 1fr;
   height: 100vh;
   min-height: var(--header-footer-mobile-min-height);
-  background-image: var(--bg-pattern-additional);
+  background-image: var(--header-bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -161,7 +161,7 @@
 }
 
 .decorate-color {
-  color: var(--decorate-color);
+  color: var(--section-title-color);
 }
 
 .title-weight {
@@ -460,7 +460,7 @@ article {
 
 .content__section-what {
   grid-template-columns: repeat(3, 1fr);
-}
+ }
 
 .content__section-article-why-dofamin {
   grid-column: 2;
