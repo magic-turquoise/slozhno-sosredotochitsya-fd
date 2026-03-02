@@ -1,7 +1,7 @@
 
 .page {
   background-image: var(--bg-pattern);
-  background-color: var(--black);
+  background-color: var(--bg-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
