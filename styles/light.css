@@ -9,9 +9,43 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-color: #FFF1F7;
-  /*--page-bg-image: "";
-  --header-bg-image: url(../images/cover-image-light.png);*/
+
+  --page-bg-image: url(../images/cover-image-light.png);
+  --page-bg-color: #FFF1F7;
+  --header-footer-decorate-zone-color: #353430;
+  --header-menu-color: #353430;
+  --header-title-color: #FFC2E6;
+  --header-title-shadow: #FF8DCB;
+  --title-decor-color: #353430;
+  --title-decor-bg: #FF8DCB;
+  --section-heading-color: #353430;
+  --section-text-color: #353430;
+  --link-effects-color: #FF8DCB;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --page-bg-image: url(../images/cover-image-light.png);
+    --page-bg-color: #FFF1F7;
+    --header-footer-decorate-zone-color: #353430;
+    --header-menu-color: #353430;
+    --header-title-color: #FFC2E6;
+    --header-title-shadow: #FF8DCB;
+    --title-decor-color: #353430;
+    --title-decor-bg: #FF8DCB;
+    --section-heading-color: #353430;
+    --section-text-color: #353430;
+     --link-effects-color: #FF8DCB;
+  }
+} 
+
+
+
+
+  /*--bg-color: #FFF1F7;
+  --page-bg-image: "";
+  --header-bg-image: url(../images/cover-image-light.png);
   --page-bg-image: url(../images/cover-image-light.png);
   --accent-color:#FFC2E6;
   --decorate-color: #FF8DCB;
@@ -24,7 +58,7 @@
 @media (prefers-color-scheme: light) {
   :root {
   /*--page-bg-image: "";
-  --header-bg-image: url(../images/cover-image-light.png);*/
+  --header-bg-image: url(../images/cover-image-light.png);
   --page-bg-image: url(../images/cover-image-light.png);
   --bg-color: #FFF1F7;
   --accent-color:#FFC2E6;
@@ -43,3 +77,4 @@
   content: none;
 }
 }
+*/

@@ -9,9 +9,23 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */ 
-  /*--header-bg-image-dark: url(../images/cover-image.png);*/
+
   --page-bg-image: url(../images/cover-image-dark.png);
-  /*--header-bg-image: url(../images/cover-image.png);*/
+  --page-bg-color: #000028;
+  --header-footer-decorate-zone-color: #FF0070;
+  --header-menu-color: #FF0070;
+  --header-title-color: #DB00FF;
+  --header-title-shadow: #FF0070;
+  --title-decor-color: #000028;
+  --title-decor-bg: #FF0070;
+  --decorate-color: #FF0070;
+  --section-heading-color: #FF0070;
+  --section-text-color: #F1B2CE;
+  --link-effects-color: #FF0070;
+}
+  /*--header-bg-image-dark: url(../images/cover-image.png);
+  --page-bg-image: url(../images/cover-image-dark.png);
+  /*--header-bg-image: url(../images/cover-image.png);
   --bg-color: #000028;
   --accent-color: #DB00FF;
   --decorate-color: #FF0070;
@@ -20,3 +34,4 @@
   --corner-decorate-color: #FF0070;
   --article-title-color: #000028;
 }
+  */
