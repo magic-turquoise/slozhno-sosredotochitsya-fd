@@ -252,56 +252,48 @@
 
   .section {
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
   }
 
   .card-mnogo {
     grid-column: 2/4;
-    grid-row: 1;
   }
 
   .card-dofamin {
     grid-column: 2/4;
-    grid-row: 2;
   }
 
   .card-concentration {
     grid-column: 1/4;
-    grid-row: 2;
   }
 
   .card-food {
     grid-column: 1/4;
-    grid-row: 3;
   }
 
   .card-gadgets {
     grid-column: 1/4;
-    grid-row: 4;
   }
 
   .section-advice {
     grid-column: 2/4;
-    grid-row: 1;
+    grid-auto-flow: row; 
   }
 
   .card-music {
     grid-column: 2/4;
-    grid-row: 2;
   }
 
   .card-walk {
     grid-column: 2/4;
-    grid-row: 3;
   }
 
   .card-eating {
     grid-column: 2/4;
-    grid-row: 4;
   }
 
   .card-reading {
     grid-column: 2/4;
-    grid-row: 5;
   }
 
 .section-gallery {
@@ -371,17 +363,14 @@
 
   .card-concentration {
     grid-column: 1;
-    grid-row: 2;
   }
 
   .card-food {
     grid-column: 2;
-    grid-row: 2;
   }
 
   .card-gadgets {
     grid-column: 3;
-    grid-row: 2;
   }      
 }
 
