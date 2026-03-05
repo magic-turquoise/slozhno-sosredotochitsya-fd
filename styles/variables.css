@@ -7,12 +7,15 @@
   --page-bg-color: #000028;
   --page-gap: 40px;
   --header-footer-min-height: 668px;
+  --header-padding: 10px;
   --header-bulb-display: block;
   --header-bulb-distance-top: 10px;
   --header-bulb-distance-right: 19px;
   --header-footer-decorate-zone-distance: 10px;
   --header-footer-decorate-zone-color: #FF0070;
   --header-menu-color: #FF0070;
+  --header-menu-button-hover: rgba(255, 0, 112, 0.4);
+  --header-menu-button-focus: #F1B2CE;
   --header-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --header-title-color: #DB00FF;
   --header-title-shadow: #FF0070;
@@ -26,30 +29,4 @@
   --section-text-color: #F1B2CE;
   --link-effects-color: #FF0070;
   --gallery-gap: 10px;
-
-
-  
 }
-
-
-
-/*
-:root {
-  --page-bg-image: url(../images/cover-image-dark.png);
-  /*--header-bg-image: url(../images/cover-image.png);
-  --mobile-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --ipad-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --bg-color: #000028;
-  --accent-color: #DB00FF;
-  --decorate-color: #FF0070;
-  --section-title-color: #FF0070;
-  --article-title-color:#000028;
-  --text-color: #F1B2CE;
-  --corner-decorate-color: #FF0070;
-  --page-mobile-gap: 40px;
-  --page-ipad-gap: 60px;
-  --header-footer-mobile-min-height: 668px;
-  --header-footer-ipad-min-height-portrait: 1024px;
-  --header-footer-ipad-min-height-landscape: 768px;
-}
-*/  
