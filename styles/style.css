@@ -57,8 +57,6 @@
   border-style: solid;
   border-width: 1px 1px 0 0;
   border-color: var(--header-footer-decorate-zone-color);
-  /*right: 10px;
-  top: 10px;*/
   right: var(--header-footer-decorate-zone-distance);
   top: var(--header-footer-decorate-zone-distance);
 }
@@ -73,8 +71,6 @@
   border-style: solid;
   border-width: 0 0 1px 1px;
   border-color: var(--header-footer-decorate-zone-color);
-  /*left: 10px;
-  bottom: 10px;*/
   left: var(--header-footer-decorate-zone-distance);
   bottom: var(--header-footer-decorate-zone-distance);
 }
@@ -141,7 +137,6 @@
   font-size: 18px;
   line-height: 130%;
   font-weight: 700;
-  /*display: block;*/
 }
 
 .title-decor {
@@ -219,7 +214,6 @@
 .footer {
   height: 100vh;
   min-height: var(--header-footer-min-height);
-  /*padding: 0 10px;*/
   position: relative;
   display: grid;
   justify-items: center;
@@ -232,7 +226,6 @@
   line-height: 83%;
   font-weight: 700;
   text-shadow: 2px 2px 0 var(--decorate-color);
-  /*width: 348px;*/
 }
 
 
