@@ -7,6 +7,9 @@
   --page-bg-color: #000028;
   --page-gap: 40px;
   --header-footer-min-height: 668px;
+  --header-bulb-display: block;
+  --header-bulb-distance-top: 10px;
+  --header-bulb-distance-right: 19px;
   --header-footer-decorate-zone-distance: 10px;
   --header-footer-decorate-zone-color: #FF0070;
   --header-menu-color: #FF0070;

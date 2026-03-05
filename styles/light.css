@@ -13,6 +13,7 @@
   --page-bg-image: url(../images/cover-image-light.png);
   --page-bg-color: #FFF1F7;
   --header-footer-decorate-zone-color: #353430;
+  --header-bulb-display: none;
   --header-menu-color: #353430;
   --header-title-color: #FFC2E6;
   --header-title-shadow: #FF8DCB;
@@ -29,6 +30,7 @@
     --page-bg-image: url(../images/cover-image-light.png);
     --page-bg-color: #FFF1F7;
     --header-footer-decorate-zone-color: #353430;
+    --header-bulb-display: none;
     --header-menu-color: #353430;
     --header-title-color: #FFC2E6;
     --header-title-shadow: #FF8DCB;
