@@ -333,16 +333,8 @@
 
 @media (min-width: 1024px) {
   :root {
-    /*--page-gap: 60px;*/
     --header-footer-min-height: 768px;
-    /*--header-bulb-distance-top: 20px;
-    --header-bulb-distance-right: 29px;
-    --header-footer-decorate-zone-distance: 20px;
-    --header-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);*/
     --header-text-width: 491px;
-    /*--content-gap: 80px;*/
-    /*--content-padding: 20px;
-    --gallery-gap: 20px;*/
   }
 
   .header__theme-menu {
