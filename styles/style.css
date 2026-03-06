@@ -222,7 +222,7 @@
 
 .footer__text {
   font-size: var(--header-title-font-size);
-  color: var(--header-title-color);  
+  color: var(--header-title-color);
   line-height: 83%;
   font-weight: 700;
   text-shadow: 2px 2px 0 var(--decorate-color);
@@ -270,7 +270,7 @@
 
   .section-advice {
     grid-column: 2/4;
-    grid-auto-flow: row; 
+    grid-auto-flow: row;
   }
 
   .card-music {
